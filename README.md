@@ -2,7 +2,7 @@
 
  Reference sheets to visually catalog settings added and altered by Bethini Pie, mostly so I can make notes for Community Shaders compatibility.  Probably not going to include presets like Ultra vs High etc.
 
-## File naming convention:
+## File naming convention
 
  SettingsSOURCE_parameter0_parameter1_parameter2
 
