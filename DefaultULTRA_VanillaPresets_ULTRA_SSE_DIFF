@@ -184,6 +184,44 @@ NOTPRESENT                                           | fSunGlareSize=600
 *                                                    |                                                    *
 *****************************************************|*****************************************************
                                                      |
-
+[AudioMenu]                                          | [NOTPRESENT]
+fAudioMasterVolume=1.0000                            | NOTPRESENT
+fVal0=1.0000                                         | NOTPRESENT
+fVal1=0.8000                                         | NOTPRESENT
+fVal2=0.8000                                         | NOTPRESENT
+fVal3=0.5000                                         | NOTPRESENT
+fVal4=1.0000                                         | NOTPRESENT
+fVal5=1.0000                                         | NOTPRESENT
+fVal6=1.0000                                         | NOTPRESENT
+fVal7=1.0000                                         | NOTPRESENT
+uID0=94881                                           | NOTPRESENT
+uID1=1007612                                         | NOTPRESENT
+uID2=554685                                          | NOTPRESENT
+uID3=466532                                          | NOTPRESENT
+uID4=0                                               | NOTPRESENT
+uID5=0                                               | NOTPRESENT
+uID6=0                                               | NOTPRESENT
+uID7=0                                               | NOTPRESENT
+                                                     |
+[Display]                                            | [Display]
+NOTPRESENT                                           | bForceCreateTarget=0
+iVolumetricLightingQuality=2                         | NOTPRESENT
+NOTPRESENT                                           | iNumSplits=2
+NOTPRESENT                                           | iReflectionResolutionDivider=2
+iAdapter=0                                           | NOTPRESENT
+NOTPRESENT                                           | NOTPRESENT
+NOTPRESENT                                           | NOTPRESENT
+NOTPRESENT                                           | NOTPRESENT
+                                                     |
+[General                                             | [Genera]
+NOTPRESENT                                           | bFreebiesSeen=0
+                                                     |
+[Launcher]                                           | [Launcher]
+NOTPRESENT                                           | bEnableFileSelection=0
+sD3DDevice="AMD Radeon RX 7900 XT"                   | NOTPRESENT
+uLastAspectRatio=2                                   | NOTPRESENT
+                                                     |
+[MAIN]                                               | [MAIN]
+bGamepadEnable=1                                     | NOTPRESENT
                                                      | 
-*****************************************************|*****************************************************
+***********************************************************************************************************
