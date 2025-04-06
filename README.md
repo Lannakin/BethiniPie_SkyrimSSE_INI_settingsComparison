@@ -1,6 +1,6 @@
 # BethiniPie_SkyrimSSE_INI_settingsComparison
 
- Reference sheets to visually catalog settings added and altered by Bethini Pie, mostly so I can make notes for Community Shaders compatibility.
+ Reference sheets to visually catalog settings added and altered by Bethini Pie, mostly so I can make notes for Community Shaders compatibility.  Probably not going to include presets like Ultra vs High etc.
 
 ## File naming convention:
 
