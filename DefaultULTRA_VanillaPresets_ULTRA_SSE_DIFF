@@ -1,0 +1,189 @@
+INIS compared: SkyrimSpecialEditionLauncherULTRA_SSE vs 
+
+These differences are important for helping to determine *specifically* which of Bethini's "Vanilla Presets"  settings may be incompatible with Community Shaders
+
+***********************************************************************************************************
+* SkyrimSpecialEditionLauncherULTRA_SSE              |  DefaultULTRA_VanillaPresets                       *
+*****************************************************|*****************************************************
+*                                                    |                                                    *
+*    SKYRIM.INI                                      |    SKYRIM.INI                                      *
+*                                                    |                                                    *
+*****************************************************|*****************************************************
+                                                     |
+[Actor]                                              | [Actor]
+NOTPRESENT                                           | fVisibleNavmeshMoveDist=4096
+                                                     |
+[NOTPRESENT]                                         | [Animation]
+NOTPRESENT                                           | bAlwaysDriveRagdoll=0
+NOTPRESENT                                           | bEnableHavokHit=0
+NOTPRESENT                                           | fHavokHitImpulseMult=50
+NOTPRESENT                                           | fWeaponChangeClearTime=0.5
+                                                     |
+[Audio]                                              | [Audio]
+NOTPRESENT                                           | uMaxSizeForCachedSound=262144
+                                                     |
+[NOTPRESENT]                                         | [Bethesda.net]
+NOTPRESENT                                           | bEnablePlatform=1
+                                                     |
+[NOTPRESENT]                                         | [Camera]
+NOTPRESENT                                           | fMouseWheelZoomSpeed=0.8
+NOTPRESENT                                           | iHorseTransitionMillis=500
+                                                     |
+[Combat]                                             | [Combat]
+NOTPRESENT                                           | bDisableCombatDialogue=0
+NOTPRESENT                                           | bForceNPCsUseAmmo=0
+NOTPRESENT                                           | f1PArrowTiltUpAngle=2.0
+NOTPRESENT                                           | f1PBoltTiltUpAngle=1.0
+NOTPRESENT                                           | f3PArrowTiltUpAngle=2.5
+                                                     |
+[NOTPRESENT]                                         | [Controls]
+NOTPRESENT                                           | fGamepadHeadingSensitivityMax=1.5556
+NOTPRESENT                                           | fGamepadHeadingSensitivityMin=0.4445
+NOTPRESENT                                           | fMouseHeadingSensitivityMax=0.05
+NOTPRESENT                                           | fMouseHeadingSensitivityMin=0.01
+NOTPRESENT                                           | fMouseHeadingXScale=0.02
+NOTPRESENT                                           | fMouseHeadingYScale=0.85
+                                                     |
+[Display]                                            | [Display]
+bAllowScreenshot=1                                   | NOTPRESENT
+NOTPRESENT                                           | bDeactivateAOOnSnow=1
+NOTPRESENT                                           | bDisableHighTreeShadow=1
+NOTPRESENT                                           | bEnableLandFade=1
+NOTPRESENT                                           | bEnableSnowMask=1
+NOTPRESENT                                           | bEnableSnowRimLighting=1
+NOTPRESENT                                           | bLockFramerate=1
+NOTPRESENT                                           | bShowMarkers=0
+NOTPRESENT                                           | bVolumetricLightingDisableInterior=1
+NOTPRESENT                                           | fDecalLOD0=800
+NOTPRESENT                                           | fDecalLifetime=30
+NOTPRESENT                                           | fDefault1stPersonFOV=80
+NOTPRESENT                                           | fDefaultFOV=80
+NOTPRESENT                                           | fDefaultWorldFOV=80
+NOTPRESENT                                           | fDynamicDOFBlurMultiplierMax=1.0
+NOTPRESENT                                           | fDynamicDOFBlurMultiplierMin=0.0
+NOTPRESENT                                           | fGammaMax=1.4
+NOTPRESENT                                           | fGammaMin=0.6
+NOTPRESENT                                           | fGlobalBloomThresholdBoost=0.0
+NOTPRESENT                                           | fGlobalBrightnessBoost=0.0
+NOTPRESENT                                           | fGlobalContrastBoost=0.0
+NOTPRESENT                                           | fGlobalMapBloomThresholdBoost=0.25
+NOTPRESENT                                           | fGlobalMapBrightnessBoost=0.25
+NOTPRESENT                                           | fGlobalMapContrastBoost=-0.3
+NOTPRESENT                                           | fGlobalSaturationBoost=0.0
+fLightLODMaxStartFade=3500.0                         | NOTPRESENT
+NOTPRESENT                                           | fLightLODRange=500
+fLightLODStartFade=3500.0                            | NOTPRESENT
+NOTPRESENT                                           | fMaxHeightShadowCastingTrees=5000
+NOTPRESENT                                           | fPoissonRadiusScale=4.0
+NOTPRESENT                                           | fSAOBias=2.5
+NOTPRESENT                                           | fSAOExpFactor=0.11
+NOTPRESENT                                           | fSAOIntensity=15.0
+NOTPRESENT                                           | fSAORadius=250
+NOTPRESENT                                           | fSAOValueDiffFactor=0.3
+NOTPRESENT                                           | fShadowDirectionalBiasScale=0.3
+fShadowLODMaxStartFade=1000.0                        | NOTPRESENT
+iShadowMapResolutionPrimary=2048                     | NOTPRESENT
+NOTPRESENT                                           | fWaterSSRBlurAmount=0.3 
+NOTPRESENT                                           | fWaterSSRIntensity=1.3
+NOTPRESENT                                           | fWaterSSRNormalPerturbationScale=0.05
+NOTPRESENT                                           | sScreenShotBaseName=ScreenShot
+                                                     |
+[General]                                            | [General]
+NOTPRESENT                                           | bAlwaysActive=0
+NOTPRESENT                                           | bBorderRegionsEnabled=1
+NOTPRESENT                                           | bDisableAllGore=0
+NOTPRESENT                                           | bModManagerMenuEnabled=1
+NOTPRESENT                                           | fEncumberedReminderTimer=30.0
+NOTPRESENT                                           | fFlickeringLightDistance=1024
+NOTPRESENT                                           | sIntroSequence=BGS_Logo.bik
+NOTPRESENT                                           | sMainMenuMusic=\Data\Music\Special\MUS_MainTheme.xwm
+NOTPRESENT                                           | uGridsToLoad=5
+                                                     |
+[GeneralWarnings]                                    | [NOTPRESENT]
+SGeneralMasterMismatchWarning=reallylongstring       | NOTPRESENT
+                                                     |
+[Grass]                                              | [Grass]
+NOTPRESENT                                           | bDrawShaderGrass=1
+NOTPRESENT                                           | bEnableGrassFade=1
+NOTPRESENT                                           | fGrassFadeRange=1000
+fGrassMaxStartFadeDistance=7000.0000                 | NOTPRESENT
+fGrassMinStartFadeDistance=0.0000                    | NOTPRESENT
+NOTPRESENT                                           | fGrassWindMagnitudeMax=125
+NOTPRESENT                                           | fGrassWindMagnitudeMin=5
+NOTPRESENT                                           | iGrassCellRadius=2
+NOTPRESENT                                           | iMaxGrassTypesPerTexure=2
+NOTPRESENT                                           | iMinGrassSize=20
+                                                     |
+[NOTPRESENT]                                         | [HAVOK]
+NOTPRESENT                                           |fMaxTime=0.01666667
+                                                     |
+[NOTPRESENT]                                         | [Interface]
+NOTPRESENT                                           | bShowTutorials=1
+NOTPRESENT                                           | fBookOpenTime=1000
+NOTPRESENT                                           | iSubtitleSpeakerNameColor=8947848
+NOTPRESENT                                           | uMaxCustomItemNameLength=32
+                                                     |
+[NOTPRESENT]                                         | [Landscape]
+NOTPRESENT                                           | fLandFriction=2.5
+                                                     |
+[LightingShader]                                     | [LightingShader]
+NOTPRESENT                                           | fEnvmapLODFadeEnd=0.1
+NOTPRESENT                                           | fEnvmapLODFadeStart=0.09
+NOTPRESENT                                           | fRefractionLODFadeEnd=0.03
+NOTPRESENT                                           | fRefractionLODFadeStart=0.025
+NOTPRESENT                                           | fSpecularLODFadeEnd=0.1
+NOTPRESENT                                           | fSpecularLODFadeStart=0.09
+                                                     |
+[NOTPRESENT]                                         | [MapMenu]
+NOTPRESENT                                           | bWorldMapNoSkyDepthBlur=0
+NOTPRESENT                                           | fMapWorldMaxPitch=75
+NOTPRESENT                                           | fMapWorldMinPitch=15
+NOTPRESENT                                           | fMapWorldYawRange=80
+NOTPRESENT                                           | fWorldMapDepthBlurScale=0.3000000119
+NOTPRESENT                                           | fWorldMapMaximumDepthBlur=0.4499999881
+NOTPRESENT                                           | fWorldMapNearDepthBlurScale=4
+                                                     |
+[NOTPRESENT]                                         | [Menu]
+NOTPRESENT                                           | iConsoleSizeScreenPercent=40
+NOTPRESENT                                           | iConsoleTextSize=20
+NOTPRESENT                                           | rConsoleHistoryTextColor=153,153,153
+NOTPRESENT                                           | rConsoleTextColor=255,255,255
+                                                     |
+[Papyrus]                                            | [Papyrus]
+NOTPRESENT                                           | bEnableProfiling=0
+NOTPRESENT                                           | iMaxAllocatedMemoryBytes=153600
+                                                     |
+[NOTPRESENT]                                         | [SaveGame]
+NOTPRESENT                                           | bAllowScriptedAutosave=1
+NOTPRESENT                                           | bAllowScriptedForceSave=1
+NOTPRESENT                                           | bDisableAutoSave=0
+NOTPRESENT                                           | bDisplayMissingContentDialogue=1
+NOTPRESENT                                           | iAutoSaveCount=3
+NOTPRESENT                                           | uiCompression=2
+                                                     |
+[NOTPRESENT]                                         | [Trees]
+NOTPRESENT                                           | bEnableTreeAnimations=1
+NOTPRESENT                                           | bEnableTrees=1
+NOTPRESENT                                           | fUpdateBudget=1.5
+                                                     |
+[NOTPRESENT]                                         | [Water]
+NOTPRESENT                                           | bReflectLODLand=1
+NOTPRESENT                                           | bReflectLODObjects=1
+NOTPRESENT                                           | bReflectLODTrees=1
+NOTPRESENT                                           | bReflectSky=1
+                                                     |
+[NOTPRESENT]                                         | [Weather]
+NOTPRESENT                                           | fSunBaseSize=425
+NOTPRESENT                                           | fSunBoost=1.0
+NOTPRESENT                                           | fSunGlareMultiplier=2.0
+NOTPRESENT                                           | fSunGlareSize=600
+                                                     |
+*****************************************************|*****************************************************
+*                                                    |                                                    *
+*    SKYRIMPREFS.INI                                 |    SKYRIMPREFS.INI                                 *
+*                                                    |                                                    *
+*****************************************************|*****************************************************
+                                                     |
+
+                                                     | 
+*****************************************************|*****************************************************
