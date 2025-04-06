@@ -1,9 +1,9 @@
-INIS compared: SkyrimSpecialEditionLauncherULTRA_SSE vs 
+INIS compared: SkyrimSpecialEditionLauncherULTRA_SSE vs BethiniULTRA_VanillaPresets
 
 These differences are important for helping to determine *specifically* which of Bethini's "Vanilla Presets"  settings may be incompatible with Community Shaders
 
 ***********************************************************************************************************
-* SkyrimSpecialEditionLauncherULTRA_SSE              |  DefaultULTRA_VanillaPresets                       *
+* SkyrimSpecialEditionLauncherULTRA_SSE              | BethiniULTRA_VanillaPresets                       *
 *****************************************************|*****************************************************
 *                                                    |                                                    *
 *    SKYRIM.INI                                      |    SKYRIM.INI                                      *

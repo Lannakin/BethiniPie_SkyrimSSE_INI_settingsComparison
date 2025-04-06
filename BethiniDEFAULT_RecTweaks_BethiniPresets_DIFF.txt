@@ -1,7 +1,7 @@
-INIs compared: DEFAULT_BethiniPresets vs DEFAULT_RecTweaks_BethiniPresets
+INIs compared: BethiniDEFAULT_BethiniPresets vs BethiniDEFAULT_RecTweaks_BethiniPresets
 
 ***********************************************************************************************************
-* DEFAULT_BethiniPresets                             |  DEFAULT_RecTweaks_BethiniPresets                  *
+* BethiniDEFAULT_BethiniPresets                      |  BethiniDEFAULT_RecTweaks_BethiniPresets           *
 *****************************************************|*****************************************************
 *                                                    |                                                    *
 *    SKYRIM.INI                                      |    SKYRIM.INI                                      *
