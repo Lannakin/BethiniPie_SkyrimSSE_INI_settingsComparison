@@ -1,0 +1,71 @@
+    DEFAULT INI VALUE                                |    BETHINI PIE RECOMMENDED TWEAKS VALUE
+                                                     |
+*****************************************************|*****************************************************
+*                                                    |                                                    *
+*    SKYRIM.INI                                      |    SKYRIM.INI                                      *
+*                                                    |                                                    *
+*****************************************************|*****************************************************
+                                                     |
+[Actor]                                              | [Actor]
+fVisibleNavmeshMoveDist=4096                         | fVisibleNavmeshMoveDist=12288
+                                                     |
+[Audio]                                              | [Audio]
+uMaxSizeForCachedSound=262144                        | uMaxSizeForCachedSound=4096
+                                                     |
+[Camera]                                             | [Camera]
+fMouseWheelZoomSpeed=0.8                             | fMouseWheelZoomSpeed=3.0
+iHorseTransitionMillis=500                           | iHorseTransitionMillis=250
+                                                     |
+[Combat]                                             | [Combat]
+f1PArrowTiltUpAngle=2.0                              | f1PArrowTiltUpAngle=0.7
+f1PBoltTiltUpAngle=1.0                               | f1PBoltTiltUpAngle=0.7
+                                                     |
+[Controls]                                           | [Controls]
+NOTPRESENT                                           | fDialogueHardStopAngle1P=180
+NOTPRESENT                                           | fDialogueHardStopAngle3P=180
+NOTPRESENT                                           | fDialogueSoftStopAngle1P=150
+NOTPRESENT                                           | fDialogueSoftStopAngle3P=150
+                                                     |
+[Display]                                            | [Display]
+NOTPRESENT                                           | bDisableShadowJumps=1
+bEnableLandFade=1                                    | bEnableLandFade=0
+bLockFramerate=1                                     | bLockFramerate=0
+fWaterSSRIntensity=1.3                               | fWaterSSRIntensity=0.5
+NOTPRESENT                                           | iLandscapeMultiNormalTilingFactor=1
+                                                     | 
+[General]                                            | [General]
+bAlwaysActive=0                                      | bAlwaysActive=1
+NOTPRESENT                                           | bBackgroundLoadVMData=0
+sIntroSequence=BGS_Logo.bik                          | sIntroSequence=
+bEnableGrassFade=1                                   | bEnableGrassFade=0
+                                                     | 
+[Interface]                                          | [Interface]
+fBookOpenTime=1000                                   | fBookOpenTime=500
+uMaxCustomItemNameLength=32                          | uMaxCustomItemNameLength=64
+                                                     | 
+[MapMenu]                                            | [MapMenu]
+bWorldMapNoSkyDepthBlur=0                            | bWorldMapNoSkyDepthBlur=1
+fMapWorldMaxPitch=75                                 | fMapWorldMaxPitch=90
+fMapWorldMinPitch=15                                 | fMapWorldMinPitch=0
+fMapWorldYawRange=80                                 | fMapWorldYawRange=400
+fWorldMapDepthBlurScale=0.3000000119                 | fWorldMapDepthBlurScale=0
+fWorldMapMaximumDepthBlur=0.4499999881               | fWorldMapMaximumDepthBlur=0
+fWorldMapNearDepthBlurScale=4                        | fWorldMapNearDepthBlurScale=0
+                                                     | 
+[Papyrus]                                            | [Papyrus]
+fPostLoadUpdateTimeMS=500                            | fPostLoadUpdateTimeMS=2000
+iMaxAllocatedMemoryBytes=153600                      | iMaxAllocatedMemoryBytes=500000
+                                                     |
+    DEFAULT INI VALUE                                |    BETHINI PIE RECOMMENDED TWEAKS VALUE
+                                                     |
+*****************************************************|*****************************************************
+*                                                    |                                                    *
+*    SKYRIM.INI                                      |    SKYRIM.INI                                      *
+*                                                    |                                                    *
+*****************************************************|*****************************************************
+                                                     |
+[Display]                                            | [Display]
+bEnableImprovedSnow=1                                | bEnableImprovedSnow=0
+bIBLFEnable=1                                        | bIBLFEnable=0
+                                                     | 
+*****************************************************|*****************************************************
