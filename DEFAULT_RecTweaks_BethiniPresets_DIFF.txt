@@ -1,5 +1,7 @@
-    DEFAULT INI VALUE                                |    BETHINI PIE RECOMMENDED TWEAKS VALUE
-                                                     |
+INIs compared: DEFAULT_BethiniPresets vs DEFAULT_RecTweaks_BethiniPresets
+
+***********************************************************************************************************
+* DEFAULT_BethiniPresets                             |  DEFAULT_RecTweaks_BethiniPresets                  *
 *****************************************************|*****************************************************
 *                                                    |                                                    *
 *    SKYRIM.INI                                      |    SKYRIM.INI                                      *
@@ -56,11 +58,9 @@ fWorldMapNearDepthBlurScale=4                        | fWorldMapNearDepthBlurSca
 fPostLoadUpdateTimeMS=500                            | fPostLoadUpdateTimeMS=2000
 iMaxAllocatedMemoryBytes=153600                      | iMaxAllocatedMemoryBytes=500000
                                                      |
-    DEFAULT INI VALUE                                |    BETHINI PIE RECOMMENDED TWEAKS VALUE
-                                                     |
 *****************************************************|*****************************************************
 *                                                    |                                                    *
-*    SKYRIM.INI                                      |    SKYRIM.INI                                      *
+*    SKYRIMPREFS.INI                                 |    SKYRIMPREFS.INI                                 *
 *                                                    |                                                    *
 *****************************************************|*****************************************************
                                                      |

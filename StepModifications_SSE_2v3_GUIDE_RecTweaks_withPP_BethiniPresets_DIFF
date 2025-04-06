@@ -1,0 +1,152 @@
+INIs compared: DEFAULT_BethiniPresets vs StepModifications_SSE_2v3_GUIDE_RecTweaks_withPP_BethiniPresets
+
+**************************************************************************************************************************
+* DEFAULT_BethiniPresets                             |  StepModifications_SSE_2v3_GUIDE_RecTweaks_withPP_BethiniPresets  *
+*****************************************************|********************************************************************
+*                                                    |                                                                   *
+*    SKYRIM.INI                                      |    SKYRIM.INI                                                     *
+*                                                    |                                                                   *
+*****************************************************|********************************************************************
+                                                     |
+[Actor]                                              | [Actor]
+fVisibleNavmeshMoveDist=4096                         | fVisibleNavmeshMoveDist=12288
+                                                     |
+[Audio]                                              | [Audio]
+uMaxSizeForCachedSound=262144                        | uMaxSizeForCachedSound=4096
+                                                     |
+[Camera]                                             | [Camera]
+fMouseWheelZoomSpeed=0.8                             | fMouseWheelZoomSpeed=3.0
+iHorseTransitionMillis=500                           | iHorseTransitionMillis=250
+                                                     |
+[Combat]                                             | [Combat]
+f1PArrowTiltUpAngle=2.0                              | f1PArrowTiltUpAngle=0.7
+f1PBoltTiltUpAngle=1.0                               | f1PBoltTiltUpAngle=0.7
+                                                     |
+[Controls]                                           | [Controls]
+NOTPRESENT                                           | fDialogueHardStopAngle1P=180
+NOTPRESENT                                           | fDialogueHardStopAngle3P=180
+NOTPRESENT                                           | fDialogueSoftStopAngle1P=150
+NOTPRESENT                                           | fDialogueSoftStopAngle3P=150
+                                                     |
+[Decals]                                             | [Decals]  
+uMaxSkinDecalPerActor=60                             | uMaxSkinDecalPerActor=40
+                                                     |
+[Display]                                            | [Display]
+NOTPRESENT                                           | bDisableShadowJumps=1
+bEnableLandFade=1                                    | bEnableLandFade=0
+bLockFramerate=1                                     | bLockFramerate=0
+fDecalLOD0=800                                       | fDecalLOD0=10240
+fDecalLifetime=30                                    | fDecalLifetime=300
+fFirstSliceDistance=2000                             | fFirstSliceDistance=2896
+fLightLODRange=500                                   | fLightLODRange=26624
+fShadowDirectionalBiasScale=0.3                      | fShadowDirectionalBiasScale=0.47
+fWaterSSRIntensity=1.3                               | fWaterSSRIntensity=0.5
+NOTPRESENT                                           | iLandscapeMultiNormalTilingFactor=1
+sScreenShotBaseName=ScreenShot                       | sScreenShotBaseName=C:\screenshots\Step-SkyrimSE
+                                                     | 
+[General]                                            | [General]
+bAlwaysActive=0                                      | bAlwaysActive=1
+NOTPRESENT                                           | bBackgroundLoadVMData=0
+bModManagerMenuEnabled=1                             | bModManagerMenuEnabled=0
+fEncumberedReminderTimer=30.0                        | fEncumberedReminderTimer=300.0
+fFlickeringLightDistance=1024                        | fFlickeringLightDistance=6144
+sIntroSequence=BGS_Logo.bik                          | sIntroSequence=
+bEnableGrassFade=1                                   | bEnableGrassFade=0
+                                                     | 
+[Grass]                                              | [Grass]
+bEnableGrassFade=1                                   | bEnableGrassFade=0
+fGrassFadeRange=1000                                 | fGrassFadeRange=6144
+iMaxGrassTypesPerTexure=2                            | iMaxGrassTypesPerTexure=15
+iMinGrassSize=20                                     | iMinGrassSize=60
+                                                     |
+[Interface]                                          | [Interface]
+fBookOpenTime=1000                                   | fBookOpenTime=500
+uMaxCustomItemNameLength=32                          | uMaxCustomItemNameLength=64
+                                                     | 
+[LightingShader]                                     | [LightingShader]
+fDecalLODFadeEnd=0.5                                 | fDecalLODFadeEnd=0.6
+fDecalLODFadeStart=0.45                              | fDecalLODFadeStart=0.5
+fEnvmapLODFadeEnd=0.1                                | fEnvmapLODFadeEnd=0.7
+fEnvmapLODFadeStart=0.09                             | fEnvmapLODFadeStart=0.6
+                                                     |
+[MapMenu]                                            | [MapMenu]
+bWorldMapNoSkyDepthBlur=0                            | bWorldMapNoSkyDepthBlur=1
+fMapWorldMaxPitch=75                                 | fMapWorldMaxPitch=90
+fMapWorldMinPitch=15                                 | fMapWorldMinPitch=0
+fMapWorldYawRange=80                                 | fMapWorldYawRange=400
+fWorldMapDepthBlurScale=0.3000000119                 | fWorldMapDepthBlurScale=0
+fWorldMapMaximumDepthBlur=0.4499999881               | fWorldMapMaximumDepthBlur=0
+fWorldMapNearDepthBlurScale=4                        | fWorldMapNearDepthBlurScale=0
+                                                     | 
+[Papyrus]                                            | [Papyrus]
+fPostLoadUpdateTimeMS=500                            | fPostLoadUpdateTimeMS=2000
+iMaxAllocatedMemoryBytes=153600                      | iMaxAllocatedMemoryBytes=500000
+                                                     |
+[Water]                                              | [Water]
+bReflectSky=1                                        | bReflectSky=0
+                                                     |
+[Weather]                                            | [Weather]
+fSunBaseSize=425                                     | fSunBaseSize=200
+fSunGlareSize=600                                    | fSunGlareSize=282
+                                                     |
+*****************************************************|*****************************************************
+*                                                    |                                                    *
+*    SKYRIMPREFS.INI                                 |    SKYRIMPREFS.INI                                 *
+*                                                    |                                                    *
+*****************************************************|*****************************************************
+                                                     |
+[Decals]                                             | [Decals]
+uMaxDecals=1000                                      | uMaxDecals=200
+uMaxSkinDecals=100                                   | uMaxSkinDecals=50
+                                                     |
+[Display]                                            | [Display]
+bDrawLandShadows=0                                   | bDrawLandShadows=1
+bEnableImprovedSnow=1                                | bEnableImprovedSnow=0
+bFull Screen=1                                       | bFull Screen=0
+bIBLFEnable=1                                        | bIBLFEnable=0
+bSAOEnable=1                                         | bSAOEnable=0
+bToggleSparkles=1                                    | bToggleSparkles=0
+bUse64bitsHDRRenderTarget=0                          | bUse64bitsHDRRenderTarget=1
+fLightLODStartFade=1000                              | fLightLODStartFade=4096
+fMeshLODLevel1FadeDist=9999999                       | fMeshLODLevel1FadeDist=6144
+fMeshLODLevel1FadeTreeDistance=2844                  | fMeshLODLevel1FadeTreeDistance=6144
+fMeshLODLevel2FadeDist=9999999                       | fMeshLODLevel2FadeDist=10240
+fMeshLODLevel2FadeTreeDistance=2048                  | fMeshLODLevel2FadeTreeDistance=10240
+fShadowDistance=8000                                 | fShadowDistance=8192
+fTreesMidLODSwitchDist=3600                          | fTreesMidLODSwitchDist=10240
+iMaxDecalsPerFrame=100                               | iMaxDecalsPerFrame=120
+iMaxSkinDecalsPerFrame=25                            | iMaxSkinDecalsPerFrame=50
+iVSyncPresentInterval=1                              | iVSyncPresentInterval=0
+iVolumetricLightingQuality=1                         | iVolumetricLightingQuality=2
+                                                     |
+[General]                                            | [General]
+bFreebiesSeen=0                                      | bFreebiesSeen=1
+                                                     |
+[Grass]                                              | [Grass]
+fGrassStartFadeDistance=7000                         | fGrassStartFadeDistance=4096
+                                                     |
+[Imagespace]                                         | [Imagespace]
+bLensFlare=1                                         | bLensFlare=0
+                                                     |
+[LOD]                                                | [LOD]
+fLODFadeOutMultActors=6.0                            | fLODFadeOutMultActors=12.0
+fLODFadeOutMultItems=3.0                             | fLODFadeOutMultItems=4.5
+fLODFadeOutMultObjects=5.0                           | fLODFadeOutMultObjects=15.0
+                                                     |
+[MAIN]                                               | [MAIN]
+fSkyCellRefFadeDistance=150000                       | fSkyCellRefFadeDistance=327680
+                                                     |
+[Particles]                                          | [Particles]
+iMaxDesired=750                                      | iMaxDesired=7500
+                                                     |
+[TerrainManager]                                     | [TerrainManager]
+fBlockLevel0Distance=35000                           | fBlockLevel0Distance=53248
+fBlockLevel1Distance=70000                           | fBlockLevel1Distance=114688
+fBlockMaximumDistance=250000                         | fBlockMaximumDistance=262144
+fSplitDistanceMult=1.5                               | fSplitDistanceMult=1.0
+fTreeLoadDistance=75000                              | fTreeLoadDistance=0
+                                                     |
+[Trees]                                              | [Trees]
+uiMaxSkinnedTreesToRender=40                         | uiMaxSkinnedTreesToRender=120
+                                                     |
+***********************************************************************************************************
